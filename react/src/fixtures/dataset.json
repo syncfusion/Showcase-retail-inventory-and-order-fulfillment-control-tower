@@ -1,0 +1,960 @@
+{
+  "fixtureVersion": "2026.09.22-3",
+  "scenarioNow": "2026-09-22T09:00:00.000Z",
+  "warehouses": [
+    {
+      "id": "wh-ne-1",
+      "name": "Northeast DC 1",
+      "region": "Northeast"
+    },
+    {
+      "id": "wh-mw-1",
+      "name": "Midwest DC 1",
+      "region": "Midwest"
+    },
+    {
+      "id": "wh-w-1",
+      "name": "West DC 1",
+      "region": "West"
+    },
+    {
+      "id": "wh-se-1",
+      "name": "Southeast DC 1",
+      "region": "Southeast"
+    }
+  ],
+  "skus": [
+    {
+      "id": "sku-1001",
+      "name": "Wireless Barcode Scanner",
+      "category": "Electronics",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 20.7,
+      "onHand": 4,
+      "reserved": 2,
+      "reorderPoint": 8,
+      "reorderQty": 30,
+      "lastRestockedAt": "2026-09-02"
+    },
+    {
+      "id": "sku-1002",
+      "name": "USB-C Charging Hub",
+      "category": "Electronics",
+      "warehouseId": "wh-se-1",
+      "unitCost": 31.4,
+      "onHand": 9,
+      "reserved": 3,
+      "reorderPoint": 10,
+      "reorderQty": 40,
+      "lastRestockedAt": "2026-09-03"
+    },
+    {
+      "id": "sku-1003",
+      "name": "4K Security Camera",
+      "category": "Electronics",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 42.1,
+      "onHand": 12,
+      "reserved": 4,
+      "reorderPoint": 12,
+      "reorderQty": 50,
+      "lastRestockedAt": "2026-09-04"
+    },
+    {
+      "id": "sku-1004",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "warehouseId": "wh-se-1",
+      "unitCost": 52.8,
+      "onHand": 18,
+      "reserved": 4,
+      "reorderPoint": 15,
+      "reorderQty": 60,
+      "lastRestockedAt": "2026-09-05"
+    },
+    {
+      "id": "sku-1005",
+      "name": "Smart Thermostat",
+      "category": "Electronics",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 63.5,
+      "onHand": 22,
+      "reserved": 5,
+      "reorderPoint": 15,
+      "reorderQty": 80,
+      "lastRestockedAt": "2026-09-06"
+    },
+    {
+      "id": "sku-1006",
+      "name": "Portable SSD 1TB",
+      "category": "Electronics",
+      "warehouseId": "wh-se-1",
+      "unitCost": 74.2,
+      "onHand": 45,
+      "reserved": 6,
+      "reorderPoint": 20,
+      "reorderQty": 100,
+      "lastRestockedAt": "2026-09-07"
+    },
+    {
+      "id": "sku-1007",
+      "name": "Noise-Cancel Headphones",
+      "category": "Electronics",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 84.9,
+      "onHand": 60,
+      "reserved": 8,
+      "reorderPoint": 25,
+      "reorderQty": 120,
+      "lastRestockedAt": "2026-09-08"
+    },
+    {
+      "id": "sku-1008",
+      "name": "Handheld Label Printer",
+      "category": "Electronics",
+      "warehouseId": "wh-se-1",
+      "unitCost": 10,
+      "onHand": 0,
+      "reserved": 0,
+      "reorderPoint": 6,
+      "reorderQty": 20,
+      "lastRestockedAt": "2026-09-09"
+    },
+    {
+      "id": "sku-1009",
+      "name": "Ceramic Cookware Set",
+      "category": "Home Goods",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 20.7,
+      "onHand": 4,
+      "reserved": 2,
+      "reorderPoint": 8,
+      "reorderQty": 30,
+      "lastRestockedAt": "2026-09-10"
+    },
+    {
+      "id": "sku-1010",
+      "name": "Memory Foam Pillow",
+      "category": "Home Goods",
+      "warehouseId": "wh-se-1",
+      "unitCost": 31.4,
+      "onHand": 9,
+      "reserved": 3,
+      "reorderPoint": 10,
+      "reorderQty": 40,
+      "lastRestockedAt": "2026-09-11"
+    },
+    {
+      "id": "sku-1011",
+      "name": "LED Desk Lamp",
+      "category": "Home Goods",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 42.1,
+      "onHand": 12,
+      "reserved": 4,
+      "reorderPoint": 12,
+      "reorderQty": 50,
+      "lastRestockedAt": "2026-09-12"
+    },
+    {
+      "id": "sku-1012",
+      "name": "Bamboo Cutting Board",
+      "category": "Home Goods",
+      "warehouseId": "wh-se-1",
+      "unitCost": 52.8,
+      "onHand": 18,
+      "reserved": 4,
+      "reorderPoint": 15,
+      "reorderQty": 60,
+      "lastRestockedAt": "2026-09-13"
+    },
+    {
+      "id": "sku-1013",
+      "name": "Stackable Storage Bins",
+      "category": "Home Goods",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 63.5,
+      "onHand": 22,
+      "reserved": 5,
+      "reorderPoint": 15,
+      "reorderQty": 80,
+      "lastRestockedAt": "2026-09-14"
+    },
+    {
+      "id": "sku-1014",
+      "name": "Electric Kettle",
+      "category": "Home Goods",
+      "warehouseId": "wh-se-1",
+      "unitCost": 74.2,
+      "onHand": 45,
+      "reserved": 6,
+      "reorderPoint": 20,
+      "reorderQty": 100,
+      "lastRestockedAt": "2026-09-15"
+    },
+    {
+      "id": "sku-1015",
+      "name": "Air Purifier Filter",
+      "category": "Home Goods",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 84.9,
+      "onHand": 60,
+      "reserved": 8,
+      "reorderPoint": 25,
+      "reorderQty": 120,
+      "lastRestockedAt": "2026-09-16"
+    },
+    {
+      "id": "sku-1016",
+      "name": "Aroma Diffuser",
+      "category": "Home Goods",
+      "warehouseId": "wh-se-1",
+      "unitCost": 10,
+      "onHand": 0,
+      "reserved": 0,
+      "reorderPoint": 6,
+      "reorderQty": 20,
+      "lastRestockedAt": "2026-09-17"
+    },
+    {
+      "id": "sku-1017",
+      "name": "Insulated Winter Jacket",
+      "category": "Apparel",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 20.7,
+      "onHand": 4,
+      "reserved": 2,
+      "reorderPoint": 8,
+      "reorderQty": 30,
+      "lastRestockedAt": "2026-09-18"
+    },
+    {
+      "id": "sku-1018",
+      "name": "Running Shoes (Unisex)",
+      "category": "Apparel",
+      "warehouseId": "wh-se-1",
+      "unitCost": 31.4,
+      "onHand": 9,
+      "reserved": 3,
+      "reorderPoint": 10,
+      "reorderQty": 40,
+      "lastRestockedAt": "2026-09-19"
+    },
+    {
+      "id": "sku-1019",
+      "name": "Merino Wool Sweater",
+      "category": "Apparel",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 42.1,
+      "onHand": 12,
+      "reserved": 4,
+      "reorderPoint": 12,
+      "reorderQty": 50,
+      "lastRestockedAt": "2026-09-20"
+    },
+    {
+      "id": "sku-1020",
+      "name": "Rain Poncho",
+      "category": "Apparel",
+      "warehouseId": "wh-se-1",
+      "unitCost": 52.8,
+      "onHand": 18,
+      "reserved": 4,
+      "reorderPoint": 15,
+      "reorderQty": 60,
+      "lastRestockedAt": "2026-09-01"
+    },
+    {
+      "id": "sku-1021",
+      "name": "Thermal Base Layer",
+      "category": "Apparel",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 63.5,
+      "onHand": 22,
+      "reserved": 5,
+      "reorderPoint": 15,
+      "reorderQty": 80,
+      "lastRestockedAt": "2026-09-02"
+    },
+    {
+      "id": "sku-1022",
+      "name": "Canvas Work Gloves",
+      "category": "Apparel",
+      "warehouseId": "wh-se-1",
+      "unitCost": 74.2,
+      "onHand": 45,
+      "reserved": 6,
+      "reorderPoint": 20,
+      "reorderQty": 100,
+      "lastRestockedAt": "2026-09-03"
+    },
+    {
+      "id": "sku-1023",
+      "name": "Wide-Brim Sun Hat",
+      "category": "Apparel",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 84.9,
+      "onHand": 60,
+      "reserved": 8,
+      "reorderPoint": 25,
+      "reorderQty": 120,
+      "lastRestockedAt": "2026-09-04"
+    },
+    {
+      "id": "sku-1024",
+      "name": "Packable Rain Shell",
+      "category": "Apparel",
+      "warehouseId": "wh-se-1",
+      "unitCost": 10,
+      "onHand": 0,
+      "reserved": 0,
+      "reorderPoint": 6,
+      "reorderQty": 20,
+      "lastRestockedAt": "2026-09-05"
+    },
+    {
+      "id": "sku-1025",
+      "name": "Organic Trail Mix (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 20.7,
+      "onHand": 4,
+      "reserved": 2,
+      "reorderPoint": 8,
+      "reorderQty": 30,
+      "lastRestockedAt": "2026-09-06"
+    },
+    {
+      "id": "sku-1026",
+      "name": "Cold Brew Coffee (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-se-1",
+      "unitCost": 31.4,
+      "onHand": 9,
+      "reserved": 3,
+      "reorderPoint": 10,
+      "reorderQty": 40,
+      "lastRestockedAt": "2026-09-07"
+    },
+    {
+      "id": "sku-1027",
+      "name": "Sparkling Water (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 42.1,
+      "onHand": 12,
+      "reserved": 4,
+      "reorderPoint": 12,
+      "reorderQty": 50,
+      "lastRestockedAt": "2026-09-08"
+    },
+    {
+      "id": "sku-1028",
+      "name": "Granola Bars (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-se-1",
+      "unitCost": 52.8,
+      "onHand": 18,
+      "reserved": 4,
+      "reorderPoint": 15,
+      "reorderQty": 60,
+      "lastRestockedAt": "2026-09-09"
+    },
+    {
+      "id": "sku-1029",
+      "name": "Herbal Tea Sampler",
+      "category": "Grocery",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 63.5,
+      "onHand": 22,
+      "reserved": 5,
+      "reorderPoint": 15,
+      "reorderQty": 80,
+      "lastRestockedAt": "2026-09-10"
+    },
+    {
+      "id": "sku-1030",
+      "name": "Olive Oil (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-se-1",
+      "unitCost": 74.2,
+      "onHand": 45,
+      "reserved": 6,
+      "reorderPoint": 20,
+      "reorderQty": 100,
+      "lastRestockedAt": "2026-09-11"
+    },
+    {
+      "id": "sku-1031",
+      "name": "Dried Fruit Mix (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 84.9,
+      "onHand": 60,
+      "reserved": 8,
+      "reorderPoint": 25,
+      "reorderQty": 120,
+      "lastRestockedAt": "2026-09-12"
+    },
+    {
+      "id": "sku-1032",
+      "name": "Protein Bars (Case)",
+      "category": "Grocery",
+      "warehouseId": "wh-se-1",
+      "unitCost": 10,
+      "onHand": 0,
+      "reserved": 0,
+      "reorderPoint": 6,
+      "reorderQty": 20,
+      "lastRestockedAt": "2026-09-13"
+    },
+    {
+      "id": "sku-1033",
+      "name": "Recycled Paper Reams (Case)",
+      "category": "Office Supplies",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 20.7,
+      "onHand": 4,
+      "reserved": 2,
+      "reorderPoint": 8,
+      "reorderQty": 30,
+      "lastRestockedAt": "2026-09-14"
+    },
+    {
+      "id": "sku-1034",
+      "name": "Ergonomic Desk Chair",
+      "category": "Office Supplies",
+      "warehouseId": "wh-se-1",
+      "unitCost": 31.4,
+      "onHand": 9,
+      "reserved": 3,
+      "reorderPoint": 10,
+      "reorderQty": 40,
+      "lastRestockedAt": "2026-09-15"
+    },
+    {
+      "id": "sku-1035",
+      "name": "Whiteboard Markers (Set)",
+      "category": "Office Supplies",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 42.1,
+      "onHand": 12,
+      "reserved": 4,
+      "reorderPoint": 12,
+      "reorderQty": 50,
+      "lastRestockedAt": "2026-09-16"
+    },
+    {
+      "id": "sku-1036",
+      "name": "Monitor Stand",
+      "category": "Office Supplies",
+      "warehouseId": "wh-se-1",
+      "unitCost": 52.8,
+      "onHand": 18,
+      "reserved": 4,
+      "reorderPoint": 15,
+      "reorderQty": 60,
+      "lastRestockedAt": "2026-09-17"
+    },
+    {
+      "id": "sku-1037",
+      "name": "Wireless Mouse",
+      "category": "Office Supplies",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 63.5,
+      "onHand": 22,
+      "reserved": 5,
+      "reorderPoint": 15,
+      "reorderQty": 80,
+      "lastRestockedAt": "2026-09-18"
+    },
+    {
+      "id": "sku-1038",
+      "name": "Desk Organizer Tray",
+      "category": "Office Supplies",
+      "warehouseId": "wh-se-1",
+      "unitCost": 74.2,
+      "onHand": 45,
+      "reserved": 6,
+      "reorderPoint": 20,
+      "reorderQty": 100,
+      "lastRestockedAt": "2026-09-19"
+    },
+    {
+      "id": "sku-1039",
+      "name": "Sticky Note Cubes",
+      "category": "Office Supplies",
+      "warehouseId": "wh-mw-1",
+      "unitCost": 84.9,
+      "onHand": 60,
+      "reserved": 8,
+      "reorderPoint": 25,
+      "reorderQty": 120,
+      "lastRestockedAt": "2026-09-20"
+    },
+    {
+      "id": "sku-1040",
+      "name": "Cable Management Kit",
+      "category": "Office Supplies",
+      "warehouseId": "wh-se-1",
+      "unitCost": 10,
+      "onHand": 0,
+      "reserved": 0,
+      "reorderPoint": 6,
+      "reorderQty": 20,
+      "lastRestockedAt": "2026-09-01"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-3001",
+      "customer": "Harborview Retail",
+      "items": [
+        {
+          "skuId": "sku-1001",
+          "qty": 2
+        }
+      ],
+      "stage": "Received",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-16",
+      "createdAt": "2026-09-11T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:11:00.000Z"
+    },
+    {
+      "id": "ord-3002",
+      "customer": "Northgate Mall Kiosk",
+      "items": [
+        {
+          "skuId": "sku-1002",
+          "qty": 3
+        }
+      ],
+      "stage": "Received",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-25",
+      "createdAt": "2026-09-12T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:12:00.000Z"
+    },
+    {
+      "id": "ord-3003",
+      "customer": "Lakeside Co-op",
+      "items": [
+        {
+          "skuId": "sku-1003",
+          "qty": 4
+        }
+      ],
+      "stage": "Received",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-26",
+      "createdAt": "2026-09-13T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:13:00.000Z"
+    },
+    {
+      "id": "ord-3004",
+      "customer": "Summit Outfitters",
+      "items": [
+        {
+          "skuId": "sku-1004",
+          "qty": 5
+        }
+      ],
+      "stage": "Received",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-19",
+      "createdAt": "2026-09-14T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:14:00.000Z"
+    },
+    {
+      "id": "ord-3005",
+      "customer": "Riverside Grocers",
+      "items": [
+        {
+          "skuId": "sku-1005",
+          "qty": 6
+        }
+      ],
+      "stage": "Received",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-28",
+      "createdAt": "2026-09-15T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:15:00.000Z"
+    },
+    {
+      "id": "ord-3006",
+      "customer": "Prairie Home Supply",
+      "items": [
+        {
+          "skuId": "sku-1006",
+          "qty": 1
+        }
+      ],
+      "stage": "Received",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-23",
+      "createdAt": "2026-09-16T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:16:00.000Z"
+    },
+    {
+      "id": "ord-3007",
+      "customer": "Coastal Sportswear",
+      "items": [
+        {
+          "skuId": "sku-1007",
+          "qty": 2
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-16",
+      "createdAt": "2026-09-17T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:17:00.000Z"
+    },
+    {
+      "id": "ord-3008",
+      "customer": "Valley Office Depot",
+      "items": [
+        {
+          "skuId": "sku-1008",
+          "qty": 3
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-25",
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:18:00.000Z"
+    },
+    {
+      "id": "ord-3009",
+      "customer": "Metro Electronics Hub",
+      "items": [
+        {
+          "skuId": "sku-1009",
+          "qty": 4
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-26",
+      "createdAt": "2026-09-11T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:19:00.000Z"
+    },
+    {
+      "id": "ord-3010",
+      "customer": "Downtown Home Center",
+      "items": [
+        {
+          "skuId": "sku-1010",
+          "qty": 5
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-19",
+      "createdAt": "2026-09-12T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:20:00.000Z"
+    },
+    {
+      "id": "ord-3011",
+      "customer": "Bayview Pharmacy",
+      "items": [
+        {
+          "skuId": "sku-1011",
+          "qty": 6
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-28",
+      "createdAt": "2026-09-13T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:21:00.000Z"
+    },
+    {
+      "id": "ord-3012",
+      "customer": "Cedar Ridge Market",
+      "items": [
+        {
+          "skuId": "sku-1012",
+          "qty": 1
+        }
+      ],
+      "stage": "Picking",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-23",
+      "createdAt": "2026-09-14T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:22:00.000Z"
+    },
+    {
+      "id": "ord-3013",
+      "customer": "Union Square Traders",
+      "items": [
+        {
+          "skuId": "sku-1013",
+          "qty": 2
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-16",
+      "createdAt": "2026-09-15T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:23:00.000Z"
+    },
+    {
+      "id": "ord-3014",
+      "customer": "Willow Creek Goods",
+      "items": [
+        {
+          "skuId": "sku-1014",
+          "qty": 3
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-25",
+      "createdAt": "2026-09-16T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:24:00.000Z"
+    },
+    {
+      "id": "ord-3015",
+      "customer": "Granite Peak Outdoors",
+      "items": [
+        {
+          "skuId": "sku-1015",
+          "qty": 4
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-26",
+      "createdAt": "2026-09-17T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:25:00.000Z"
+    },
+    {
+      "id": "ord-3016",
+      "customer": "Sunrise Wholesale",
+      "items": [
+        {
+          "skuId": "sku-1016",
+          "qty": 5
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-19",
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:26:00.000Z"
+    },
+    {
+      "id": "ord-3017",
+      "customer": "Copper Canyon Retail",
+      "items": [
+        {
+          "skuId": "sku-1017",
+          "qty": 6
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-28",
+      "createdAt": "2026-09-11T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:27:00.000Z"
+    },
+    {
+      "id": "ord-3018",
+      "customer": "Elmwood General Store",
+      "items": [
+        {
+          "skuId": "sku-1018",
+          "qty": 1
+        }
+      ],
+      "stage": "Packed",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-23",
+      "createdAt": "2026-09-12T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:28:00.000Z"
+    },
+    {
+      "id": "ord-3019",
+      "customer": "Pinehurst Supply Co",
+      "items": [
+        {
+          "skuId": "sku-1019",
+          "qty": 2
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-16",
+      "createdAt": "2026-09-13T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:29:00.000Z"
+    },
+    {
+      "id": "ord-3020",
+      "customer": "Ashford Marketplace",
+      "items": [
+        {
+          "skuId": "sku-1020",
+          "qty": 3
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-25",
+      "createdAt": "2026-09-14T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:30:00.000Z"
+    },
+    {
+      "id": "ord-3021",
+      "customer": "Brookfield Traders",
+      "items": [
+        {
+          "skuId": "sku-1021",
+          "qty": 4
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-26",
+      "createdAt": "2026-09-15T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:31:00.000Z"
+    },
+    {
+      "id": "ord-3022",
+      "customer": "Silverline Retail",
+      "items": [
+        {
+          "skuId": "sku-1022",
+          "qty": 5
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-19",
+      "createdAt": "2026-09-16T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:32:00.000Z"
+    },
+    {
+      "id": "ord-3023",
+      "customer": "Maple Grove Mart",
+      "items": [
+        {
+          "skuId": "sku-1023",
+          "qty": 6
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-28",
+      "createdAt": "2026-09-17T09:00:00.000Z",
+      "updatedAt": "2026-09-21T08:33:00.000Z"
+    },
+    {
+      "id": "ord-3024",
+      "customer": "Lonestar Outfitters",
+      "items": [
+        {
+          "skuId": "sku-1024",
+          "qty": 1
+        }
+      ],
+      "stage": "Shipped",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-23",
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "updatedAt": "2026-09-20T08:34:00.000Z"
+    },
+    {
+      "id": "ord-3025",
+      "customer": "Blue Harbor Supply",
+      "items": [
+        {
+          "skuId": "sku-1025",
+          "qty": 2
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-10",
+      "createdAt": "2026-09-02T09:00:00.000Z",
+      "updatedAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "id": "ord-3026",
+      "customer": "Redwood Commerce",
+      "items": [
+        {
+          "skuId": "sku-1026",
+          "qty": 3
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-11",
+      "createdAt": "2026-09-03T09:00:00.000Z",
+      "updatedAt": "2026-09-10T09:00:00.000Z"
+    },
+    {
+      "id": "ord-3027",
+      "customer": "Foothill Goods",
+      "items": [
+        {
+          "skuId": "sku-1027",
+          "qty": 4
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-12",
+      "createdAt": "2026-09-04T09:00:00.000Z",
+      "updatedAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "id": "ord-3028",
+      "customer": "Crescent Bay Retail",
+      "items": [
+        {
+          "skuId": "sku-1028",
+          "qty": 5
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-13",
+      "createdAt": "2026-09-05T09:00:00.000Z",
+      "updatedAt": "2026-09-14T09:00:00.000Z"
+    },
+    {
+      "id": "ord-3029",
+      "customer": "Ironwood Traders",
+      "items": [
+        {
+          "skuId": "sku-1029",
+          "qty": 6
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Standard",
+      "promisedDeliveryDate": "2026-09-14",
+      "createdAt": "2026-09-06T09:00:00.000Z",
+      "updatedAt": "2026-09-13T09:00:00.000Z"
+    },
+    {
+      "id": "ord-3030",
+      "customer": "Golden Valley Mart",
+      "items": [
+        {
+          "skuId": "sku-1030",
+          "qty": 1
+        }
+      ],
+      "stage": "Delivered",
+      "priority": "Expedited",
+      "promisedDeliveryDate": "2026-09-05",
+      "createdAt": "2026-09-07T09:00:00.000Z",
+      "updatedAt": "2026-09-04T09:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+# ─────────────────────────────────────────────────────────────
+# Retail Inventory & Order Fulfillment Control Tower — .gitignore
+# Single root file; paths apply to the whole repo (app lives in react/).
+# ─────────────────────────────────────────────────────────────
+
+# ── Dependencies ──
+node_modules/
+**/node_modules/
+
+# ── Build output ──
+# Vite emits to react/dist/; keep it out of source control.
+dist/
+**/dist/
+build/
+out/
+
+# ── Vite / TypeScript cache & artifacts ──
+.vite/
+*.tsbuildinfo
+*.tsbuildinfo.*
+tsconfig.tsbuildinfo
+
+# ── Test / coverage ──
+coverage/
+.nyc_output/
+*.lcov
+
+# ── Environment & secrets ──
+# .env holds the (optional) VITE_SYNCFUSION_LICENSE_KEY. Even though VITE_*
+# values are public by definition, keep local env files out of git by convention.
+# Copy .env.example to .env and fill in if you want to register a license.
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ── Logs ──
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+
+# ── Packaging artifacts ──
+*.zip
+*.tar
+*.gz
+retail-inventory.zip
+
+# ── macOS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+Icon?
+._*
+
+# ── Windows ──
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Linux ──
+*~
+.directory
+
+# ── Editor / IDE ──
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ──
+.cache/
+.temp/
+.tmp/
+*.local
